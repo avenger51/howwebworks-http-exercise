@@ -1,0 +1,50 @@
+- What is HTTP?
+HTTP stands for "Hypertext Transfer Protocol." It is an application protocol that defines how data is exchanged between a client (such as a web browser) and a server (which hosts web content) over the Internet. HTTP is the foundation of data communication on the World Wide Web.
+- What is a URL?
+A URL, or Uniform Resource Locator, is a reference or address used to identify a resource on the internet.
+- What is DNS?
+Domain name service.  It maps A and PTR records.
+- What is a query string?
+A string passed, most often a question mark
+- What are two HTTP verbs and how are they different?
+GET and POST.  Get is a retrieve request and post is a write to call.
+- What is an HTTP request?
+A message sent to a client or server
+- What is an HTTP response?
+A response to an HTTP request...
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Specifies information in metadata.  Authorization and Content-Type are examples
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+Scheme recognition, DNS, connection, HTTP request, server process, HTTP response, rendering
+and display.
+
+
+1.  {"current_page":1,"limit":20,"next_page":1,"previous_page":1,"results":[{"id":"QuscibaMClb","joke":"What does a pirate pay for his corn? A buccaneer!"},{"id":"2gii3LeN7Ed","joke":"Why couldn't the kid see the pirate movie? Because it was rated arrr!"},{"id":"SvzIBAQS0Dd","joke":"What did the pirate say on his 80th birthday? Aye Matey!"},{"id":"SnOf2gqjiqc","joke":"Why are pirates called pirates? Because they arrr!"},{"id":"exXSCtkOKe","joke":"Why do pirates not know the alphabet? They always get stuck at \"C\"."}],"search_term":"pirate","status":200,"total_jokes":5,"total_pages":1}
+
+2. ;; AUTHORITY SECTION:
+.                       0       CLASS1232 OPT   10 8 dp6grMye2sM=
+
+;; Query time: 19 msec
+;; SERVER: 172.26.176.1#53(172.26.176.1) (UDP)
+;; WHEN: Thu Aug 17 09:08:46 EDT 2023
+;; MSG SIZE  rcvd: 136
+
+3.  Done
+
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+    <form method="GET" action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
